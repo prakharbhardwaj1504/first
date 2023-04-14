@@ -1,0 +1,370 @@
+
+/* snapit font */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+header{
+    position:sticky;
+    top: 0px;
+    height: 13vh;
+    /* border: 2px solid black; */
+    border-bottom: 1px solid rgb(242, 242, 242);
+    background-color: rgb(255, 255, 255);
+    
+}
+nav{
+    display: flex;
+    align-items: centers;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    font-size: 5vh;
+    margin: 0 1.5vw;
+    border-right: 1px solid rgb(242, 242, 242);
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+.free {
+    color: rgb(248, 203, 70);
+    
+}
+
+.kart {
+    color: rgb(84, 178, 38);
+    margin-right: 20px;
+}
+
+.eta{
+    display:flexbox;
+    align-items: center;
+    margin: 3.2vh;
+    height: 13vh;
+    
+}
+.eta1{
+    display: flex;
+    font-size: 17px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+}
+
+.eta2{
+    display: inline;
+    font-size: 14px;
+    font-weight: 10;
+align-items: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.material-symbols-outlined{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    /* bottom: 0px; */
+    /* left: 190px;  */
+    /* top: 5px; */
+    }
+ #dropdown{
+    position: absolute;
+    top: 40px;
+        
+    }
+
+.search{
+    height: 7.2vh;
+    width: 39vw;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    /* margin: 3.2vh 0 3.2vh 7vw; */
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(221,221,221);
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    
+}
+
+#searchin{
+    
+    margin-left: .5vw;
+    border:none;
+    
+    /* border-radius: 8px ; */
+   
+}
+
+.login{
+    height: 13vh;
+    display: flex;
+    color: grey;
+    align-items: center;
+    margin: 0 4.6vw;
+    font-size: 22px;
+    font-weight:400 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cart{
+    
+    height: 7.7vh;
+    width: 7.9vw;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(12, 131, 31);
+    border-radius: 8px;
+    color: white;
+    
+}
+.cartin{
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 15%;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+.material-symbols-outlined {
+    
+  font-variation-settings:
+  'FILL' ,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#cart_img{
+    position: relative;
+    left: 10px;
+}
+
+.container{
+    /* border: 5px solid red; */
+    display: flex;
+}
+
+.poster{
+
+background-image: url("panoffer.png");
+background-size:cover;
+
+border-radius: 8px;
+margin: 0vh 3.8vw;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35vh;
+width: 90vw;
+padding: 0;
+
+}
+
+.firstscroler{
+    display: flex;
+    margin: 3vh 3.8vw;
+    margin-bottom: 0;
+     height: 35vh;
+width: 90vw; 
+
+overflow-x: scroll;
+}
+
+
+.firstscroler::-webkit-scrollbar{
+    width: 0;
+    /* display: none; */
+}
+
+.box1 {
+    min-width: 23.5vw;
+    display: flex;
+    margin:  0 1vw;
+    
+    height: 29vh;
+    border-radius: 10px;
+    background-image: url("printout.png");
+    
+}
+
+.box2 {
+    min-width: 23.5vw;
+    display: flex;
+    margin:  0 1vw;
+    
+    height: 29vh;
+    border-radius: 10px;
+    background-image: url("season.avif");
+    
+}
+
+.box3 {
+
+    min-width: 23.5vw;
+    display: flex;
+    margin:  0 1vw;
+    height: 29vh;
+    border-radius: 10px;
+    background-image: url("gift.avif");
+    
+}
+
+.box4 {
+
+    min-width: 23.5vw;
+    display: flex;
+    margin:  0 1vw;
+    height: 29vh;
+    border-radius: 10px;
+    background-image: url("fabric.avif");
+    
+}
+
+.multiimg{
+    margin: 0vh 3.8vw;
+    height: vh;
+width: 90vw;
+    display:grid;
+    background-color:var(rgb(255, 255, 255));
+    gap: 10px 10px;
+    grid-template-columns:  128px  128px  128px  128px  128px  128px  128px  128px  128px  128px  ;
+    grid-template-rows:   188.2px 188.2px  ;
+
+}
+
+.mg1{
+    background-color: brown;
+    background-image: url("mg1.png");
+    
+
+
+}
+
+.mg2{
+    background-color: brown;
+    background-image: url("mg2.png");
+    
+}
+.mg3{
+    background-color: brown;
+    background-image: url("mg3.avif");
+    
+}
+.mg4{
+    background-color: brown;
+    background-image: url("mg4.avif");
+    
+}
+.mg5{
+    background-color: brown;
+    background-image: url("mg5.avif");
+    
+}
+.mg6{
+    background-color: brown;
+    background-image: url("mg6.avif");
+    
+}
+.mg7{
+    background-color: brown;
+    background-image: url("mg7.avif");
+    
+}
+.mg8{
+    background-color: brown;
+    background-image: url("mg8.avif");
+    
+}
+.mg9{
+    background-color: brown;
+    background-image: url("mg9.avif");
+    
+}
+.mg10{
+    background-color: brown;
+    background-image: url("mg10.avif");
+    
+}
+.mg11{
+    background-color: brown;
+    background-image: url("mg11.avif");
+    
+}
+.mg12{
+    background-color: brown;
+    background-image: url("mg12.avif");
+    
+}
+.mg13{
+    background-color: brown;
+    background-image: url("mg13.avif");
+    
+}
+.mg14{
+    background-color: brown;
+    background-image: url("mg14.avif");
+    
+}
+.mg15{
+    background-color: brown;
+    background-image: url("mg15.avif");
+    
+}
+.mg16{
+    background-color: brown;
+    background-image: url("mg16.avif");
+    
+}
+
+.mg17{
+    background-color: brown;
+    background-image: url("mg17.avif");
+    
+}
+.mg18{
+    background-color: brown;
+    background-image: url("mg18.avif");
+    
+}
+.mg19{
+    background-color: brown;
+    background-image: url("mg18.avif");
+    
+}
+.mg20{
+    background-color: brown;
+    background-image: url("mg20.avif");
+    
+}
+
+
+
+
+
+.footer{
+    height: 3vh;
+   border-top: 1px solid rgb(242, 242, 242);
+   background-color: var(rgb(255, 255, 255));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
